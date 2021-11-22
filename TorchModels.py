@@ -167,7 +167,7 @@ class TargetForecast_model(torch.nn.Module):
                 pos_score = (pos_head_embedding * pos_tail_embedding).sum(1)
                 neg_score = (neg_head_embedding * neg_tail_embedding).sum(1)
                 loss = -torch.log(torch.sigmoid(pos_score)+1e-8).sum() \
-                       - torch.log(torch.sigmoid(-neg_score)+1e-8).sum() * neg_ms
+                       - torch.log(torch.sigmoid(-neg_score)+1e-8).sum()
                 p_t = pos_head_embedding.size()[0] + neg_head_embedding.size()[0]
             else:
                 pos_head_embedding_e = pos_head_embedding.repeat(neg_ms, 1)
