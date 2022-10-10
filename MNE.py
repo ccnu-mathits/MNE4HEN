@@ -334,7 +334,7 @@ if __name__ == '__main__':
         dataset='assistment09',
         embedding_size=128,
         ns_strategy='local',  # [global,local]
-        neg_ms=10,  # number of negative samples
+        neg_ms=20,  # number of negative samples
         dropout=0.3,  # uncertainty generator in node embedding
         rho=0.5,  # exponent of noises in node embedding prediction
         var='isotropy',  # the var computing type including ['isotropy','anisotropy']
