@@ -1,1 +1,20 @@
-Codes of paper "Multi-task Node Embedding for the Heterogeneous Evolutive Graph and its Applications in Intelligence Education".
+#MNE
+Source code and data set for the paper **Auto-balanced Multi-task Node Embedding Framework for Intelligent Education**.
+
+
+###Dependencies
+* * *
+- python 3.6+
+- numpy
+- pytorch
+
+###Usage
+* * *
+Run main.py
+```
+python MNE.py
+```
+
+Results are under `./Results`
+
+
