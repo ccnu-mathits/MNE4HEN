@@ -5,15 +5,13 @@ Source code and data set for the paper **Auto-balanced Multi-task Node Embedding
 
 ###Dependencies
 
-* * *
 - python 3.6+
 - numpy
 - pytorch
 
 ###Usage
 
-* * *
-Run main.py
+Run MNE.py
 ```
 python MNE.py
 ```
